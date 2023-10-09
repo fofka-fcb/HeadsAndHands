@@ -14,5 +14,4 @@ public class Creature {
         int randomNum = ThreadLocalRandom.current().nextInt(min, max + 1);
         return damage * randomNum;
     }
-
 }

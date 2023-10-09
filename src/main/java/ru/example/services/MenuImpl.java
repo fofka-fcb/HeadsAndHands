@@ -10,7 +10,6 @@ import static java.lang.System.*;
 
 public class MenuImpl implements Menu {
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
     List listOfResults = new LinkedList();
 
     @SneakyThrows

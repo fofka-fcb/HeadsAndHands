@@ -18,7 +18,6 @@ public class GameImpl implements Game {
 
     @SneakyThrows
     public synchronized void start() {
-
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         Hero hero = new Hero();

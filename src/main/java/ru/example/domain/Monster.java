@@ -5,5 +5,4 @@ import java.util.List;
 
 public class Monster extends Creature {
     public List listOfDamage = new ArrayList();
-
 }
